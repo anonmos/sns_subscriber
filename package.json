@@ -13,5 +13,11 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
+  },
+  "bin": {
+    "sns_subscriber": "bin/cli.js"
+  },
+  "devDependencies": {
+    "shelljs": "^0.7.7"
   }
 }
